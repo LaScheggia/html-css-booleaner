@@ -1,19 +1,35 @@
 header{
   background-color: #4ea1ff;
-  background-image: url(img/pattern.png);
-  background-repeat:repeat-x;
-  background-repeat: repeat-y;
+  background-image: url(../img/pattern.png);
+  height: 350px;
 }
 
 main{
-  width: 90%;
+  width: 85%;
   margin: auto;
+}
+
+h1 {
+  margin-bottom: -15px;
 }
 
 mark {
   backgroundcolor: #ffff00;
 }
 
+#credits{
+  color:rgb(163, 163, 163);
+  font-weight: lighter;
+}
+
+#descr{
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.mychangecolor{
+  color: rgb(67, 183, 233);
+}
 
 table { 
   width: 100%;
@@ -31,6 +47,23 @@ tr:nth-child(odd) {
   background-color: rgb(177, 229, 242)
 }
 
+.container{
+  background-image: url(../img/monitor.jpg);
+  background-size: cover;
+  height: 200px;
+  color: white;
+}
+
+.container2{
+  background-image: url(../img/graph.jpg);
+  background-size: cover;
+  height: 200px;
+  color: white;
+}
+
 footer{
   text-align: center;
+  color: rgb(129, 31, 116);
+  font-weight: bolder;
 }
+
