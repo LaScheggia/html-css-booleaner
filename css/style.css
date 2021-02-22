@@ -1,0 +1,36 @@
+header{
+  background-color: #4ea1ff;
+  background-image: url(img/pattern.png);
+  background-repeat:repeat-x;
+  background-repeat: repeat-y;
+}
+
+main{
+  width: 90%;
+  margin: auto;
+}
+
+mark {
+  backgroundcolor: #ffff00;
+}
+
+
+table { 
+  width: 100%;
+  table-layout: fixed;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(32, 169, 229);
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(177, 229, 242)
+}
+
+footer{
+  text-align: center;
+}
